@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamemetrics_liveops_player_telemetry_analytics"
+version = "1.0.0"
+description = "AAA & Mobile Game LiveOps Telemetry Data Warehouse: D1/D7/D30 retention cohorts, battle pass conversion funnels, matchmaking tick rates, and ARPPU yield."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
